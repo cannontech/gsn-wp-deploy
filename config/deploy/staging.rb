@@ -3,15 +3,15 @@
 ############################################
 
 set :stage, :staging
-set :stage_url, "http://www.example.com"
-server "XXX.XXX.XX.XXX", user: "SSHUSER", roles: %w{web app db}
-set :deploy_to, "/deploy/to/path"
+set :stage_url, "admin.prodwp.gsn2.com"
+server "54.183.217.7", user: "ubuntu", roles: %w{web app db}
+set :deploy_to, "/usr/share/nginx/html"
 
 ############################################
 # Setup Git
 ############################################
 
-set :branch, "development"
+set :branch, "master"
 
 ############################################
 # Extra Settings
