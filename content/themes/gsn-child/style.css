@@ -1,0 +1,39 @@
+/*
+Theme Name:         gsn child
+Template: 	        gsn-base
+Version:            0.0.1
+Description:        Child theme of gsn-base (which is sparkling)
+Author:             Eric Schmit
+GitHub Theme URI:   cannontech/sparkling-child
+GitHub Branch:      master
+*/
+
+body {
+    font-family: georgia;
+    color: #429205;
+}
+
+.entry-content {
+    color: firebrick;
+}
+
+/*
+    stuff for the two column
+*/
+/* .page-id-21 .content-area {
+    float: right;
+    margin: 0 0 0 -25%;
+    width: 100%;
+}
+.page-id-21 .site-main {
+    margin: 0 0 0 25%;
+}
+.page-id-21 .site-content .widget-area {
+    float: left;
+    overflow: hidden;
+    width: 25%;
+}
+.page-id-21 .site-footer {
+    clear: both;
+    width: 100%;
+} */
