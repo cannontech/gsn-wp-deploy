@@ -8,7 +8,7 @@ require './config/slack'
 # Setup WordPress
 ############################################
 
-set :wp_user, "wpuser" # The admin username
+set :wp_user, "gsndev" # The admin username
 set :wp_email, "eschmit@groceryshopping.com" # The admin email address
 set :wp_sitename, "WP Deploy" # The site title
 set :wp_localurl, "http://localhost:81" # Your local environment URL
@@ -17,8 +17,8 @@ set :wp_localurl, "http://localhost:81" # Your local environment URL
 # Setup project
 ############################################
 
-set :application, "gsn-wp-deploy"
-set :repo_url, "git@github.com:cannontech/gsn-wp-deploy.git"
+set :application, "wp-deploy"
+set :repo_url, "git@github.com:cannontech/wp-deploy.git"
 set :scm, :git
 
 set :git_strategy, SubmoduleStrategy
