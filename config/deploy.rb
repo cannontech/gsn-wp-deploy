@@ -32,7 +32,6 @@ set :use_sudo, false
 
 set :ssh_options, {
   forward_agent: true,
-  keys: ["ncalifornia.pem"]
 }
 
 set :keep_releases, 5
