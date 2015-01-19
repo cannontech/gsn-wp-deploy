@@ -18,7 +18,7 @@ set :wp_localurl, "http://localhost:81" # Your local environment URL
 ############################################
 
 set :application, "gsn-wp-deploy"
-set :repo_url, "git@github.com:cannontech/gsn-wp-deploy.git"
+set :repo_url, "git@github.com:cannontech/wp-deploy.git"
 set :scm, :git
 
 set :git_strategy, SubmoduleStrategy

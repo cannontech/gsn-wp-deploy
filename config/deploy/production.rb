@@ -6,7 +6,7 @@ set :stage, :production
 set :stage_url, "http://admin.prodwp.gsn2.com"
 server "54.193.16.84", user: "deploy", roles: %w{web app db}
 #set :deploy_to, "/usr/share/nginx/html"
-set :deploy_to, "/mnt/sharefs/gsn-wp-deploy"
+set :deploy_to, "/mnt/sharefs/wordpress"
 
 ############################################
 # Setup Git
